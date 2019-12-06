@@ -44,7 +44,7 @@ Answer: Routing and middleware
 
 - [ ] Describe Middleware?
 
-Answer: Middleware is a function/ method that is used to help declutter your other functions, instead of making a certain piece of a function in every function you can create a middleware to place into your other functions. Middleware will run first before the function that was called and after passing through the middleware it will continue onto the actual function called... 
+Answer: Middleware is a function/ method that is used to help declutter your other functions, instead of making a certain piece of a function in every function you can create a middleware to place into your other functions. Middleware will run first before the function that was called and after passing through the middleware it will continue onto the actual function called...
 
 - [ ] Describe a Resource?
 

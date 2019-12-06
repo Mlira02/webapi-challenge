@@ -13,6 +13,15 @@ router.get('/', (req, res) => {
         })
 });
 
+router.get('/:id', (req,res) => {
+    actionDb.get(req.params.id)
+    .then(thing => {
+        res.status(200).json(thing)
+    })
+    .catch(err => {
+        res.status(500).json({ message: "error with request..."})
+    })
+})
 
 router.post('/', (req, res) => {
     actionDb.insert(req.body)

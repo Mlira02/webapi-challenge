@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Answer: Routing and middleware 
+
 - [ ] Describe Middleware?
+
+Answer: Middleware is a function/ method that is used to help declutter your other functions, instead of making a certain piece of a function in every function you can create a middleware to place into your other functions. Middleware will run first before the function that was called and after passing through the middleware it will continue onto the actual function called...
 
 - [ ] Describe a Resource?
 
+Answer: A resource can be anything within a node.js file. Such as responses that are sent to clients that request them.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+Answer: An API can return a res().status() along with a message and a status code in order to tell the client that things went well or the request errored out.
+
 - [ ] How can we partition our application into sub-applications?
+
+Answer: I think creating seperate routers and other folders for helpers and such can create a better way for our code to be read by humans.
 
 ## Minimum Viable Product
 
